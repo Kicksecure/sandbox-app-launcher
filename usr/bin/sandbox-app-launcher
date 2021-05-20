@@ -245,7 +245,6 @@ run_program() {
   setup_or_check
 
   ## TODO: X11 sandbox - not needed if we switch to wayland
-  ## TODO: IPC namespace
   ## TODO: Network namespace - probably via ip netns
   ## TODO: Don't preserve the environment - env -i
 
@@ -350,6 +349,7 @@ run_program() {
   --unsetenv SUDO_COMMAND \
   --unsetenv OLDPWD \
   --unsetenv MAIL \
+  --unshare-ipc \
   --unshare-pid \
   --unshare-cgroup \
   --unshare-uts \
