@@ -1,10 +1,10 @@
 sandbox-app-launcher(8) -- start application in sandbox
 =============================================
 
-<span class="comment">
+<!--
 # Copyright (C) 2020 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 # See the file COPYING for copying conditions.
-</span>
+-->
 
 ## SYNOPSIS
 `sandbox-app-launcher` application-name
