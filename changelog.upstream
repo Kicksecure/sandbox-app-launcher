@@ -1,3 +1,39 @@
+commit 51cd0854c20ee89e23abc3fe74662b46bb50b8be
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 12:48:56 2021 -0400
+
+    move /usr/lib/helper-scripts and /usr/lib/curl-scripts to /usr/libexec/helper-scripts as per lintian FHS
+
+commit ad3055f6fb26978c762725f6b40290deb6c4cc0e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 11:47:34 2021 -0400
+
+    re-generate man pages (generated using "genmkfile manpages")
+
+commit f1daeb6b88ebc51e069edf5e4fc4505a6b44b7f2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 11:43:46 2021 -0400
+
+    man page
+
+commit 1cab005b909d3584c8f7f57f125cba5d4587fd6d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 3 05:48:25 2021 -0400
+
+    bullseye
+
+commit 2b43ac51cd4eaf459a3a626ffd508afef820ab95
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Aug 1 16:24:39 2021 -0400
+
+    readme
+
+commit 31d99e381330641c48117d272d96cd2c79ac035a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jun 15 13:09:13 2021 -0400
+
+    bumped changelog version
+
 commit 4cdf0bd8a2ce3e19f751d12a911c2fb064b568b8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jun 12 07:18:14 2021 -0400
