@@ -25,7 +25,7 @@ do
         ;;
       list)
         echo -e "Currently configured sandboxes:\n"
-        getent passwd | grep "sal" | sed -e 's/:.*//g' | str_replace "sal-" ""
+        getent passwd | grep "sal" | sed -e 's/:.*//g' | LANG=C str_replace "sal-" ""
         exit
         ;;
       help)
