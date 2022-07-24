@@ -71,7 +71,8 @@ app_user="sal-${app_name}"
 app_homedir="${appdata_dir}/${app_name}"
 seccomp_filter="${auto_dir}/seccomp-filter.bpf"
 shared_dir="${appdata_dir}/shared"
-wrapper_script="${main_app_dir}/wrapper-script"
+wrapper_script_non_wx="${main_app_dir}/wrapper-script"
+wrapper_script_wx="${main_app_dir}/wrapper-script-wx"
 
 ## proper whitespace handling
 ## https://www.whonix.org/wiki/Dev/bash
@@ -113,7 +114,9 @@ fi
 ## browsers so it must be optional.
 if [ "${allow_dynamic_native_code_exec}" = "yes" ]; then
   seccomp_filter="${auto_dir}/seccomp-filter-wx.bpf"
-  wrapper_script="${wrapper_script}-wx"
+  wrapper_script="${wrapper_script_wx}"
+else
+  wrapper_script="${wrapper_script_non_wx}"
 fi
 
 if [ "$(id -u)" = "0" ]; then
