@@ -1,3 +1,37 @@
+commit fb215f1204a3e463d601ba67069a9b531a28db2d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:12:24 2022 -0400
+
+    mkdir --parents
+
+commit 5cbe136262a1fe3459c795d1bbdcfecaffa79ba3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:12:01 2022 -0400
+
+    refactoring
+
+commit 116d53364e9efef5d501c98bc6e317399e73ec09
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:06:25 2022 -0400
+
+    fix `ERROR: File '/usr/share/sandbox-app-launcher/wrapper-script-wx-wx' does not exist.`
+    
+    Thanks to @TNT_BOM_BOM for the bug report!
+    
+    https://forums.whonix.org/t/system-wide-sandboxing-framework-sandbox-app-launcher/9008/368
+
+commit 6461423fb8868000cd12b8a58d95191a0fb49c28
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 12:57:18 2022 -0400
+
+    refactoring
+
+commit 2c09a9cfa1a1134c3679cd5d3a54cef411f42e5f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 25 06:07:15 2022 -0400
+
+    bumped changelog version
+
 commit 78a2c5315f48a956374ca5208d13a0d565b857dd
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 20 15:27:09 2022 -0400
