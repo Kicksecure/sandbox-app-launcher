@@ -80,7 +80,7 @@ if [ "${app_name}" = "torbrowser" ]; then
 fi
 
 if ! [ -x "${app_path}" ] && ! [ "${app_name}" = "torbrowser" ]; then
-  echo "ERROR: Could not find '${app_name}' in \$PATH." >&2
+  echo "ERROR: Could not find '${app_name}' in \$PATH. Is it installed?" >&2
   exit 1
 fi
 
@@ -188,7 +188,7 @@ sudo sandbox-app-launcher setup ${app_name}
 
 setup() {
   if ! [ "${sal_is_run_with_root}" = "true" ]; then
-    echo "ERROR: The setup must be run as root." >&2
+    echo "ERROR: The setup must be run as root (sudo)." >&2
     exit 1
   fi
   setup_or_check
