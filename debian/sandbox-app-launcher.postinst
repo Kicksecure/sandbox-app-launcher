@@ -24,12 +24,12 @@ wrapper_script_wx="${main_app_dir}/wrapper-script-wx"
 
 for dir in "${main_app_dir}" "${auto_dir}" "${appdata_dir}"; do
   if ! [ -d "${dir}" ]; then
-    mkdir --mode=755 "${dir}"
+    mkdir --parents --mode=755 "${dir}"
   fi
 done
 
 if ! [ -d "${shared_dir}" ]; then
-  mkdir --mode=1777 "${shared_dir}"
+  mkdir --parents --mode=1777 "${shared_dir}"
 fi
 
 ## Cannot use a symlink due to apparmor issues.
