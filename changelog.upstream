@@ -1,3 +1,43 @@
+commit f592f3e353f369e28a71154f10626f8d8c13e7cf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 14:00:48 2022 -0400
+
+    https://forums.whonix.org/t/delete-disable-nobody-user-from-whonix-passwd/14085
+
+commit 58254fd145d45e53e8202473e0792fafb9296dcc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:50:06 2022 -0400
+
+    output
+
+commit 85b211e56d58046f985c582be0ca70c82e7de786
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:48:09 2022 -0400
+
+    fix error message if application is not installed
+
+commit 48040ab7cedabe22fe180025fba1292c33992fe5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:40:59 2022 -0400
+
+    refactoring
+
+commit 8f072049c8e96279715a4c7fc8a26c9bfdf7c08a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:36:52 2022 -0400
+
+    fix `ERROR: File '/usr/share/sandbox-app-launcher/wrapper-script-wx-wx' does not exist.`
+    
+    Thanks to @TNT_BOM_BOM for the bug report!
+    
+    https://forums.whonix.org/t/system-wide-sandboxing-framework-sandbox-app-launcher/9008/368
+
+commit 2a962d9584f450a405c80cf5dbe36764af3bd0ca
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 13:13:54 2022 -0400
+
+    bumped changelog version
+
 commit fb215f1204a3e463d601ba67069a9b531a28db2d
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Jul 24 13:12:24 2022 -0400
