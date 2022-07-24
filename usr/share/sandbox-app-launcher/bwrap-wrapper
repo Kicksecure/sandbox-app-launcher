@@ -71,8 +71,8 @@ bwrap \
    --new-session \
    --cap-drop all \
    --seccomp 12 \
-   10< <(getent passwd root "${app_user}" nobody) \
-   11< <(getent group root "${app_user}" nobody) \
+   10< <(getent passwd root "${app_user}") \
+   11< <(getent group root "${app_user}") \
    12< "${seccomp_filter}" \
    ${bwrap_args} \
    "${wrapper_script}" "$@"
