@@ -25,6 +25,7 @@ bwrap \
    --ro-bind-try /lib32 /lib32 \
    --ro-bind-try /lib64 /lib64 \
    --ro-bind /usr/lib /usr/lib \
+   --ro-bind-try /usr/libexec /usr/libexec \
    --ro-bind-try /usr/local/lib /usr/local/lib \
    --ro-bind /usr/share /usr/share \
    --ro-bind-try /usr/local/share /usr/local/share \
