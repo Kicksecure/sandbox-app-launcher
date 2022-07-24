@@ -240,7 +240,7 @@ setup_or_check() {
   fi
 
   if ! [ -d "${app_homedir}" ]; then
-    run_if_root mkdir -m 700 --parents "${app_homedir}"
+    run_if_root mkdir --mode=700 --parents "${app_homedir}"
   fi
 
   if ! [ "$(stat -c "%U" "${app_homedir}")" = "${app_user}" ]; then

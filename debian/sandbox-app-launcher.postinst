@@ -23,12 +23,12 @@ wrapper_script="${main_app_dir}/wrapper-script"
 
 for dir in "${main_app_dir}" "${auto_dir}" "${appdata_dir}"; do
   if ! [ -d "${dir}" ]; then
-    mkdir -m 755 "${dir}"
+    mkdir --mode=755 "${dir}"
   fi
 done
 
 if ! [ -d "${shared_dir}" ]; then
-  mkdir -m 1777 "${shared_dir}"
+  mkdir --mode=1777 "${shared_dir}"
 fi
 
 ## Cannot use a symlink due to apparmor issues.
