@@ -225,8 +225,8 @@ setup_or_check() {
   fi
 
   ## Check if the second wrapper script exists.
-  if ! [ -f "${wrapper_script}-wx" ]; then
-    echo "ERROR: File '${wrapper_script}-wx' does not exist. This package was not installed properly." >&2
+  if ! [ -f "${wrapper_script}" ]; then
+    echo "ERROR: File '${wrapper_script}' does not exist. This package was not installed properly." >&2
     exit 1
   fi
 
