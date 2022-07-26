@@ -1,3 +1,17 @@
+commit 89beb34bf704aaeaa7e06b5ff1048842e6dbd22c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 17:26:07 2022 -0400
+
+    fix, add `--ro-bind-try /usr/libexec /usr/libexec`
+    
+    https://forums.whonix.org/t/system-wide-sandboxing-framework-sandbox-app-launcher/9008/372
+
+commit 70d55d63251117a90f8df3dbb05aaeddc6b5cec7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 24 14:10:00 2022 -0400
+
+    bumped changelog version
+
 commit f592f3e353f369e28a71154f10626f8d8c13e7cf
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Jul 24 14:00:48 2022 -0400
