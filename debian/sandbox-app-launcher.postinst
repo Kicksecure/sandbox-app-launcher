@@ -37,7 +37,7 @@ fi
 cp "${wrapper_script_non_wx}" "${wrapper_script_wx}"
 
 ## Generate seccomp filter.
-compiler_flags="-lseccomp -ldl -D_GNU_SOURCE -Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fstack-protector-all -Wformat -Werror=format-security -Wl,-z,relro -Wl,-z,now"
+compiler_flags="-lseccomp -ldl -D_GNU_SOURCE -Wdate-time -D_FORTIFY_SOURCE=3 -g -O2 -fstack-protector-all -Wformat -Werror=format-security -Wl,-z,relro -Wl,-z,now"
 
 "${main_app_dir}/autogen-seccomp" "${main_app_dir}/seccomp-whitelist" > "${auto_dir}/seccomp.c"
 "${main_app_dir}/autogen-seccomp" "${main_app_dir}/seccomp-whitelist-wx" > "${auto_dir}/seccomp-wx.c"
