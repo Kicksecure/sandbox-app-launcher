@@ -1,3 +1,15 @@
+commit 09aa3fde8e45517054c41257b3390054b042a0e3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Sep 24 09:20:41 2022 -0400
+
+    -D_FORTIFY_SOURCE=3
+
+commit 12415db4f2240204d1e58f2d43b58c719e26bf59
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jul 26 06:56:36 2022 -0400
+
+    bumped changelog version
+
 commit 89beb34bf704aaeaa7e06b5ff1048842e6dbd22c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Jul 24 17:26:07 2022 -0400
