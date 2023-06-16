@@ -1,3 +1,9 @@
+sandbox-app-launcher (0:6.1-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 16 Jun 2023 11:08:27 +0000
+
 sandbox-app-launcher (0:6.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
