@@ -238,7 +238,7 @@ setup_or_check() {
     ## for portability.
     ## https://github.com/madaidan/sandbox-app-launcher/issues/9
     if grep --quiet --invert-match --extended-regexp 'NAME="Debian|NAME="Ubuntu' /etc/os-release; then
-      run_if_root adduser --home "${app_homedir}" --no-create-home --disabled-login --gecos "" "${app_user}" >/dev/null
+      run_if_root adduser --home "${app_homedir}" --no-create-home --disabled-login --comment "" "${app_user}" >/dev/null
     else
       run_if_root useradd --home-dir "${app_homedir}" --no-create-home "${app_user}" >/dev/null
     fi
