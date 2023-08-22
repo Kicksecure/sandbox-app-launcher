@@ -1,3 +1,15 @@
+commit f5e174d709c5faeae032d6389814f72d0ea8f970
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Aug 21 17:43:52 2023 -0400
+
+    --gecos -> --comment
+
+commit 78f5328cb5ff8db26c3653cee48f69f540026ebb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jul 17 11:47:57 2023 -0400
+
+    bumped changelog version
+
 commit 298929097ec5cd6a3794d161b71bd8b5d185d9eb
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jul 17 11:19:00 2023 -0400
