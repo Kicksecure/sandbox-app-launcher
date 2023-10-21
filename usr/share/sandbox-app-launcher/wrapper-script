@@ -7,6 +7,7 @@ if [ "$sandbox_app_launcher_debug" = "true" ]; then
   set -x
 fi
 
+## TODO: update
 xsession_d_file_list_executable=(
   "/etc/X11/Xsession.d/20torbrowser"
   "/etc/X11/Xsession.d/20uwt"
