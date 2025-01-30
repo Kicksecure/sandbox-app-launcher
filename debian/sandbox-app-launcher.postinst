@@ -41,7 +41,7 @@ compiler_flags="-lseccomp -ldl -D_GNU_SOURCE -Wdate-time -D_FORTIFY_SOURCE=3 -g 
 
 "${main_app_dir}/autogen-seccomp" "${main_app_dir}/seccomp-whitelist" > "${auto_dir}/seccomp.c"
 "${main_app_dir}/autogen-seccomp" "${main_app_dir}/seccomp-whitelist-wx" > "${auto_dir}/seccomp-wx.c"
-LANG=C str_replace "seccomp-filter.bpf" "seccomp-filter-wx.bpf" "${auto_dir}/seccomp-wx.c" >/dev/null
+str_replace "seccomp-filter.bpf" "seccomp-filter-wx.bpf" "${auto_dir}/seccomp-wx.c" >/dev/null
 
 gcc "${auto_dir}/seccomp.c" -o "${auto_dir}/seccomp" ${compiler_flags}
 gcc "${auto_dir}/seccomp-wx.c" -o "${auto_dir}/seccomp-wx" ${compiler_flags}
