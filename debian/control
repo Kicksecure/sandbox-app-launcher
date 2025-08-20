@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-apparmor
 Homepage: https://www.kicksecure.com/wiki/Sandbox-app-launcher
 Vcs-Browser: https://github.com/Kicksecure/sandbox-app-launcher
 Vcs-Git: https://github.com/Kicksecure/sandbox-app-launcher.git
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Rules-Requires-Root: no
 
 Package: sandbox-app-launcher
