@@ -2,7 +2,7 @@
 
 W^X - mprotect(), pkey_mprotect()
 
-An attacker can write arbitary code to a writable memory mapping and then make the
+An attacker can write arbitrary code to a writable memory mapping and then make the
 mapping executable via mprotect(). This can bypass any mmap() restrictions.
 
 This attempts to create a writable memory mapping then mprotect() it to executable.
