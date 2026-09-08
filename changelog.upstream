@@ -1,3 +1,22 @@
+commit dceccd1876763686ea96cd9f65121e4d7dfff109
+Merge: 873268d a560dfe
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 7 01:04:25 2026 -0400
+
+    Merge remote-tracking branch 'refs/remotes/ArrayBolt3/arraybolt3/trixie'
+
+commit a560dfe9e4d3654863a46301db30cb01ed125562
+Author: Aaron Rainbolt <arraybolt3@gmail.com>
+Date:   Sun Sep 6 01:15:17 2026 -0400
+
+    Remove obsolete pre-push CI file
+
+commit 873268df8123c455bd325a4c3d7891ad08167246
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 25 03:27:48 2026 +0000
+
+    bumped changelog version
+
 commit befee8d06008931a4716f09bbb47cbc4b551c598
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Aug 24 02:29:56 2026 -0400
